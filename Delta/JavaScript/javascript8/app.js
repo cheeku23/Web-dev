@@ -28,8 +28,8 @@ let students = [
 
 ];
 
-let gpa = students.map( (el)=> {
-    return el.marks/10;
+let gpa = students.map((el) => {
+    return el.marks / 10;
 });
 
 console.log(gpa);
@@ -39,10 +39,10 @@ console.log(gpa);
 // Filter   // callback function ky output mn agar true ho to return krway ga warna nahi krway ga
 
 
-let data= [1,2,3,4,5,6,76,7,45,534,2,3,4];
+let data = [1, 2, 3, 4, 5, 6, 76, 7, 45, 534, 2, 3, 4];
 
-let even = data.filter( (el)=> {
-    return el%2==0;
+let even = data.filter((el) => {
+    return el % 2 == 0;
 })
 
 console.log(even);

@@ -41,19 +41,19 @@ let arr2 = [10, 20, 30, 40, 50];
 
 let check = arr2.every((el) => {
 
-    return el  % 10 === 0;
+    return el % 10 === 0;
 });
 
 console.log(check);
 
 
 
-let min = arr2.reduce( (min, el) => {
+let min = arr2.reduce((min, el) => {
 
-    if( min>el){
+    if (min > el) {
         return el;
     }
-    else{
+    else {
         return min;
     }
 });
