@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar</title>
+  </head>
+
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .navbar {
+      background-color: teal;
+      color: white;
+      height: 100px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 15px;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .items{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+
+
+    }
+
+    .buttons{
+        gap: 15px;
+
+
+    }
+    .buttons button{
+
+        background-color: black;
+        color: white;
+        padding: 15px 30px;
+        gap: 15px;
+        border: none;
+        border-radius: 8px;
+
+
+    }
+  </style>
+  <body>
+    <div class="navbar">
+      <div class="logo"><h2>Navbar</h2></div>
+      <div class="items">
+        <div>Home</div>
+        <div>Blog</div>
+        <div>Contact</div>
+        <div>products</div>
+      </div>
+      <div class="buttons">
+        <button>Sign up</button>
+        <button>Sign in</button>
+
+
+      </div>
+    </div>
+  </body>
+</html>
